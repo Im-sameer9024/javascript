@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="main.css">
+    
+</head>
+<body>
+    
+    <section class="w-[100vw] h-[100vh] bg-[hsl(209,48%,17%)] flex justify-center items-center font-abc">
+         <!-- Calculator  -->
+        <div class="w-[500px] h-[500px] bg-[hsl(209,48%,17%)] border-2 rounded-md shadow-2xl font-bold border-black flex justify-center items-center ">
+           <div class="w-10/12 mx-auto  ">
+
+               <!-- Result Bar  -->
+              <div class=" flex justify-end mb-4 overflow-x-hidden h-20 text-white text-[40px] outline-none text-right  shadow-lg -shadow-white " id="result-box" >
+                  <input type="text"  name="display" class="bg-transparent  text-right px-2" min="1" max="5" width="rounded-full" >
+              </div>
+              <!-- Buttons  -->
+              <div class="grid grid-cols-4 gap-3 text-[20px]">
+                   <button class="operator border shadow-md shadow-black border-black rounded-full w-[60px] h-[60px] text-[rgb(79,229,224)] hover:text-[rgb(58,167,123)] transition-all duration-200 cursor-pointer mx-auto">AC</button>
+
+                   <button class="operator border shadow-md shadow-black border-black rounded-full w-[60px] h-[60px] text-[rgb(79,229,224)] hover:text-[rgb(58,167,123)] transition-all duration-200 cursor-pointer mx-auto">DEL</button>
+
+                   <button class="operator border shadow-md shadow-black border-black rounded-full w-[60px] h-[60px] text-[rgb(79,229,224)] hover:text-[rgb(58,167,123)] transition-all duration-200 cursor-pointer mx-auto">%</button>
+
+                   <button class="operator border shadow-md shadow-black border-black rounded-full w-[60px] h-[60px] text-[rgb(79,229,224)] hover:text-[rgb(58,167,123)] transition-all duration-200 cursor-pointer mx-auto">/</button>
+
+                   <button class="operator border shadow-md shadow-black border-black rounded-full w-[60px] h-[60px] text-[rgb(79,229,224)] hover:text-[rgb(58,167,123)] transition-all duration-200 cursor-pointer mx-auto">7</button>
+
+                   <button class="operator border shadow-md shadow-black border-black rounded-full w-[60px] h-[60px] text-[rgb(79,229,224)] hover:text-[rgb(58,167,123)] transition-all duration-200 cursor-pointer mx-auto">8</button>
+
+                   <button class="operator border shadow-md shadow-black border-black rounded-full w-[60px] h-[60px] text-[rgb(79,229,224)] hover:text-[rgb(58,167,123)] transition-all duration-200 cursor-pointer mx-auto">9</button>
+
+                   <button class="operator border shadow-md shadow-black border-black rounded-full w-[60px] h-[60px] text-[rgb(79,229,224)] hover:text-[rgb(58,167,123)] transition-all duration-200 cursor-pointer mx-auto">*</button>
+
+                   <button class="operator border shadow-md shadow-black border-black rounded-full w-[60px] h-[60px] text-[rgb(79,229,224)] hover:text-[rgb(58,167,123)] transition-all duration-200 cursor-pointer mx-auto">4</button>
+
+                   <button class="operator border shadow-md shadow-black border-black rounded-full w-[60px] h-[60px] text-[rgb(79,229,224)] hover:text-[rgb(58,167,123)] transition-all duration-200 cursor-pointer mx-auto">5</button>
+
+                   <button class="operator border shadow-md shadow-black border-black rounded-full w-[60px] h-[60px] text-[rgb(79,229,224)] hover:text-[rgb(58,167,123)] transition-all duration-200 cursor-pointer mx-auto">6</button>
+
+                   <button class="operator border shadow-md shadow-black border-black rounded-full w-[60px] h-[60px] text-[rgb(79,229,224)] hover:text-[rgb(58,167,123)] transition-all duration-200 cursor-pointer mx-auto">-</button>
+
+                   <button class="operator border shadow-md shadow-black border-black rounded-full w-[60px] h-[60px] text-[rgb(79,229,224)] hover:text-[rgb(58,167,123)] transition-all duration-200 cursor-pointer mx-auto">1</button>
+
+                   <button class="operator border shadow-md shadow-black border-black rounded-full w-[60px] h-[60px] text-[rgb(79,229,224)] hover:text-[rgb(58,167,123)] transition-all duration-200 cursor-pointer mx-auto">2</button>
+
+                   <button class="operator border shadow-md shadow-black border-black rounded-full w-[60px] h-[60px] text-[rgb(79,229,224)] hover:text-[rgb(58,167,123)] transition-all duration-200 cursor-pointer mx-auto">3</button>
+
+                   <button class="operator border shadow-md shadow-black border-black rounded-full w-[60px] h-[60px] text-[rgb(79,229,224)] hover:text-[rgb(58,167,123)] transition-all duration-200 cursor-pointer mx-auto">+</button>
+
+                   <button class="operator border shadow-md shadow-black border-black rounded-full w-[60px] h-[60px] text-[rgb(79,229,224)] hover:text-[rgb(58,167,123)] transition-all duration-200 cursor-pointer mx-auto">00</button>
+
+                   <button class="operator border shadow-md shadow-black border-black rounded-full w-[60px] h-[60px] text-[rgb(79,229,224)] hover:text-[rgb(58,167,123)] transition-all duration-200 cursor-pointer mx-auto">0</button>
+
+                   <button class="operator border shadow-md shadow-black border-black rounded-full w-[60px] h-[60px] text-[rgb(79,229,224)] hover:text-[rgb(58,167,123)] transition-all duration-200 cursor-pointer mx-auto">.</button>
+
+                   <button class="operator border shadow-md shadow-black border-black rounded-full w-[60px] h-[60px] text-[rgb(79,229,224)] hover:text-[rgb(58,167,123)] transition-all duration-200 cursor-pointer mx-auto">=</button>
+               </div>
+           </div>
+            
+        </div>
+
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
