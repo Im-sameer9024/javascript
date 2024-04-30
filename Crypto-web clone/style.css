@@ -1,0 +1,355 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+.container{
+  color: aliceblue;
+  overflow-x: hidden;
+    overflow-y: auto;
+}
+.hero-bg{
+    object-fit: cover;
+    position: relative;
+    
+    
+}
+.navi-bar{
+    color: white;
+    position: absolute;
+    top: 0px;
+    padding: 10px;
+    padding-right: 2cm;
+    padding-left: 2cm;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.navi-bar ul{
+    list-style-type: none;
+    display: flex;
+    gap: 1.5cm;
+}
+.lia:hover{
+    color:blue;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.info{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1080px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+#brief-info{
+    width: 500px;
+    padding-left: 10px;
+        
+}
+#brief-info h1{
+    font-size: 50px;
+}
+#brief-info p {
+font-size: 20px;
+}
+.padd{
+    padding-top: 1cm;
+    line-height: 1.7rem;
+}
+.btn{
+    margin-top: 1cm;
+    padding: 15px;
+    background-color: rgb(74, 182, 218);
+    color: aliceblue;
+    border: none;
+    transition-duration:0.4s;
+}
+.btn:hover{
+    background-color: rgb(51, 107, 107);
+    box-shadow: 2px 2px 2px rgb(51, 107, 107) ;
+}
+#imga{
+    animation: moveUpDown 3s ease-in-out infinite;
+    
+}
+@keyframes moveUpDown {
+    0% {
+        transform: translateY(0); /* Start position */
+    }
+    50% {
+        transform: translateY(-20px); /* Move up 20px */
+    }
+    100% {
+        transform: translateY(0); /* Return to the start position */
+    }
+}
+
+.Hero{
+    margin-top: 3cm;
+    
+}
+.mid{
+    text-align: center;
+    margin-top: 10px;
+    
+}
+.cards{
+    display: flex;
+    margin-top: 2cm;
+    justify-content: center;
+    gap: 3cm;
+    margin-bottom: 3cm;
+    
+}
+
+.card{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(235, 239, 243);
+    display: flex;
+    justify-content: center;
+    padding-top: 0;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    text-align: center;
+    transition: 0.2s 0.2s ;
+    perspective: 10px;
+    
+    
+}
+.card:hover{
+    box-shadow: 5px 5px 5px black;
+    cursor: pointer;
+    
+}
+.about{
+    width: full;
+    height: 500px;
+    background-color: rgb(15, 15, 83);
+    margin-bottom: 2cm ;
+}
+.para{
+    color: aliceblue;
+    text-align: center;
+    padding-top: 10px;
+}
+.info2{
+    width: 1080px;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    color: aliceblue;
+    display: flex;
+}
+#bit{
+    width: 400px;
+}
+.par{
+    width: 600px;
+    column-gap: 1cm;
+}
+.to{
+    margin-top: 1cm;
+    line-height: 1.5rem;
+}
+.par button{
+    padding: 10px;
+    background-color: rgb(74, 182, 218);
+    color: aliceblue;
+    border: none;
+    transition-duration:0.4s;
+}
+.par button:hover{
+    background-color: rgb(51, 107, 107);
+    box-shadow: 2px 2px 2px rgb(51, 107, 107) ;
+}
+#Why{
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+#Why img{
+    width: 100px;
+    margin-top: 2cm;
+}
+
+#Why h3{
+    margin: 0.7cm;
+}
+#Why p{
+    font-size: 20px;
+}
+.to1{
+    margin-top: 10px;
+    padding: 15px;
+    background-color: rgb(74, 182, 218);
+    color: aliceblue;
+    border: none;
+    transition-duration:0.4s;
+    display: flex;
+    margin: auto;
+}
+.to1:hover{
+    background-color: rgb(51, 107, 107);
+    box-shadow: 2px 2px 2px rgb(51, 107, 107) ;
+}
+#id{
+    margin-top: 2cm;
+    margin-bottom: 2cm;
+}
+
+.mens{
+    width: full;
+    height: 500px;
+    background-color:rgb(15, 15, 83); ;
+}
+#Our{
+    text-align: center;
+    padding-top:1cm ;
+    color: aliceblue;
+}
+.cards2{
+    width: 1080px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 1cm;
+    margin: auto;
+}
+.T1{
+    width: 230px;
+    height: 300px;
+    background-color:rgb(26, 26, 102) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 0.3s;
+}
+.T1:hover{
+    box-shadow: 2px 2px 10px;
+    cursor: pointer;
+}
+.T2{
+width: 100px;
+height: 100px;
+border:white 2px solid;
+border-radius: 50%;
+}
+.T3{
+color: rgb(71, 167, 205);
+padding-top: 10px;
+}
+.T4{
+    color: rgb(255, 255, 255);
+    padding-top: 10px;
+}
+.H1{
+    width: 300px;
+    height: 250px;
+    background-color: rgb(226, 233, 235);
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 5px 5px 5px ;
+    position: relative;
+    transform: translate(10px,10px);
+    perspective: 30px;
+    
+}
+.last-sec{
+    
+    margin-top: 2cm;
+    margin-bottom: 2cm;
+    
+}
+.cards3{
+    width: 720px;
+    height: 400px;
+    margin: auto;
+    margin-top: 3cm;
+    display: flex;
+    justify-content: space-between;
+}
+.head{
+    text-align: center;
+}
+.img4{
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+}
+.heading4{
+    margin-top: 2cm;
+}
+.par5{
+    margin-top: 5px;
+}
+.par7{
+    margin-top: 4px;
+}
+.footer{
+    width: full;
+    height: 300px;
+    background-color:rgb(26, 26, 102) ;
+    margin-bottom: 4cm;
+}
+.M1{
+    width: 180px;
+    height: 180px;
+    
+    margin-top: 1cm;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: aliceblue;
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+#K1 ul{
+    list-style: none;
+
+}
+#K1 ul li{
+    padding-bottom: 5px;
+    transition-duration:0.4s;
+    cursor: pointer;
+
+}
+#K1 ul li:hover{
+    color: blue;
+    
+}
+#btn-U1{
+    padding: 8px;
+    background-color: rgb(74, 182, 218);
+    color: aliceblue;
+    border: none;
+    transition-duration:0.4s;
+}
+#btn-U1:hover{
+    background-color: rgb(51, 107, 107);
+    box-shadow: 2px 2px 2px rgb(51, 107, 107) ;
+
+}
+#yo{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-bottom: 2cm;
+}

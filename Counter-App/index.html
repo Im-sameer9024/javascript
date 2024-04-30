@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div id="wrapper" class="bg-slate-400 w-[100vw] h-[100vh] flex flex-col justify-center items-center space-y-5"> 
+
+        <div id="text">
+            <h1 class="font-abc text-[60px]">COUNTER</h1>
+        </div>
+        <div id="result" class="text-[60px]">
+            0
+        </div>
+        <div id="buttons" class="flex space-x-6 text-[20px] font-abc font-bold  ">
+           <div class="bg-orange-500 px-2 rounded-md hover:bg-orange-800 transition-all duration-300 hover:shadow-md hover:shadow-black "> 
+              <button onclick="Decrement()">Decrement</button>
+           </div>
+           <div class="bg-white px-2 rounded-md hover:bg-white transition-all duration-300 hover:shadow-md hover:shadow-black "> 
+              <button onclick="Reset()">Reset</button>
+           </div>
+            <div class="bg-green-500 px-2 rounded-md hover:bg-green-800 transition-all duration-300 hover:shadow-md hover:shadow-black ">
+               <button onclick="Increment()">Increment</button>
+            </div>
+
+        </div>
+
+      
+    </div>
+    
+
+    <script src="index.js"></script>
+</body>
+</html>
